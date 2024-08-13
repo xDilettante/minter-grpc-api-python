@@ -2,7 +2,7 @@
 
 ### pygenproto.bat - запускает скрипт генерации кода из протофайла proto/api.proto
 
-после генерации необходимо поправить импорт в ```api_pb2_grpc.py``` с 
+после генерации необходимо поправить импорт в ```minter/grpc/api_pb2_grpc.py``` с 
 ```python
 import api_pb2 as api__pb2
 ```
